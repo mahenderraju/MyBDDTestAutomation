@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="Feature",
-				 tags="@RoundTrip",
+				 tags="@OnewayTrip",
 				 monochrome=true,
 				 dryRun=false,
 				 glue="com.mktrip.stepdefinition",
